@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>httpie</id>
+		<version>2.3.0</version>
+		<packageSourceUrl>https://github.com/zverev-iv/choco-httpie</packageSourceUrl>
+		<owners>zverev-iv</owners>
+		<title>httpie (Install)</title>
+		<authors>HTTPie</authors>
+		<projectUrl>https://httpie.io/</projectUrl>
+		<copyright>2020 HTTPie</copyright>
+		<licenseUrl>https://raw.githubusercontent.com/httpie/httpie/master/LICENSE</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<projectSourceUrl>https://github.com/httpie/httpie</projectSourceUrl>
+		<docsUrl>https://httpie.io/docs</docsUrl>
+		<bugTrackerUrl>https://github.com/httpie/httpie/issues</bugTrackerUrl>
+		<tags>httpie http https rest api client curl python ssl cli foss URL</tags>
+		<summary>HTTPie: human-friendly CLI HTTP client for the API era</summary>
+		<description>HTTPie (pronounced aitch-tee-tee-pie) is a command-line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs &amp; HTTP servers. The http &amp; https commands allow for creating and sending arbitrary HTTP requests. They use simple and natural syntax and provide formatted and colorized output. </description>
+		<releaseNotes>https://github.com/httpie/httpie/releases</releaseNotes>
+		<dependencies>
+			<dependency id="python" version="3.6.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>

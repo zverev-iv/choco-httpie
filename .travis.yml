@@ -1,0 +1,10 @@
+os: windows
+language: shell
+branches:
+  only:
+    - master
+script:
+  - choco pack httpie\\httpie.nuspec
+after_script:
+  - choco apikey --key $CHOCOAPIKEY --source https://push.chocolatey.org/
+  - choco push
