@@ -1,2 +1,2 @@
 ﻿$ErrorActionPreference = 'Stop';
-pip uninstall -y httpie
+pip uninstall -y $env:ChocolateyPackageName
