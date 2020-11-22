@@ -3,4 +3,4 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $nuspecPath =  "$(Join-Path (Split-Path -parent $toolsDir) ($env:ChocolateyPackageName + ".nuspec"))"
 [XML]$nuspec = Get-Content $nuspecPath
 $pipVersion = $nuspec.package.metadata.version
-pip install "$($env:ChocolateyPackageName)==$($pipVersion)"
+pip install "$($env:ChocolateyPackageName)==$($pipVersion)" --disable-pip-version-check
