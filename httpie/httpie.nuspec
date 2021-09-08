@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
 	<metadata>
 		<id>httpie</id>
-		<version>2.3.0</version>
+		<version>2.5.0</version>
 		<packageSourceUrl>https://github.com/zverev-iv/choco-httpie</packageSourceUrl>
 		<owners>zverev-iv</owners>
 		<title>httpie (Install)</title>
 		<authors>HTTPie</authors>
 		<projectUrl>https://httpie.io/</projectUrl>
-		<copyright>2020 HTTPie</copyright>
+		<copyright>2021 HTTPie</copyright>
 		<licenseUrl>https://raw.githubusercontent.com/httpie/httpie/master/LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<projectSourceUrl>https://github.com/httpie/httpie</projectSourceUrl>
